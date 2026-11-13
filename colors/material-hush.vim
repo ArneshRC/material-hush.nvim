@@ -6,9 +6,9 @@ if exists('syntax_on') | syntax reset | endif
 let g:colors_name = 'material-hush'
 
 hi Normal guifg=#fafafa ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
-hi NormalFloat guifg=#fafafa ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
-hi FloatBorder guifg=#3a3a3a ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
-hi FloatTitle guifg=#fafafa ctermfg=NONE guibg=#232323 ctermbg=NONE gui=bold cterm=bold
+hi NormalFloat guifg=#fafafa ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
+hi FloatBorder guifg=#3a3a3a ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
+hi FloatTitle guifg=#fafafa ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=bold cterm=bold
 hi Cursor guifg=#1c1c1c ctermfg=NONE guibg=#fafafa ctermbg=NONE gui=NONE cterm=NONE
 hi! link lCursor Cursor
 hi! link CursorIM Cursor
@@ -24,14 +24,14 @@ hi VertSplit guifg=#2e2e2e ctermfg=NONE gui=NONE cterm=NONE
 hi WinSeparator guifg=#2e2e2e ctermfg=NONE gui=NONE cterm=NONE
 hi StatusLine guifg=#fafafa ctermfg=NONE guibg=#212121 ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLineNC guifg=#7a7a7a ctermfg=NONE guibg=#212121 ctermbg=NONE gui=NONE cterm=NONE
-hi TabLine guifg=#7a7a7a ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
-hi TabLineSel guifg=#fafafa ctermfg=NONE guibg=#2a2a2a ctermbg=NONE gui=bold cterm=bold
+hi TabLine guifg=#7a7a7a ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
+hi TabLineSel guifg=#fafafa ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=bold cterm=bold
 hi TabLineFill guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
 hi WinBar guifg=#fafafa ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=bold cterm=bold
 hi WinBarNC guifg=#7a7a7a ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
-hi Pmenu guifg=#fafafa ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
+hi Pmenu guifg=#fafafa ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
 hi PmenuSel guibg=#262626 ctermbg=NONE gui=bold cterm=bold
-hi PmenuSbar guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
+hi PmenuSbar guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
 hi PmenuThumb guibg=#262626 ctermbg=NONE gui=NONE cterm=NONE
 hi! link WildMenu PmenuSel
 hi Visual guibg=#333333 ctermbg=NONE gui=NONE cterm=NONE
@@ -168,14 +168,14 @@ if has('nvim')
   hi @diff.plus guifg=#dcdfb5 ctermfg=2 gui=NONE cterm=NONE
   hi @diff.minus guifg=#ebafbd ctermfg=1 gui=NONE cterm=NONE
   hi @diff.delta guifg=#aaccee ctermfg=4 gui=NONE cterm=NONE
-  hi TelescopeNormal guifg=#fafafa ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
-  hi TelescopeBorder guifg=#3a3a3a ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
+  hi TelescopeNormal guifg=#fafafa ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
+  hi TelescopeBorder guifg=#3a3a3a ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
   hi TelescopeTitle guifg=#fafafa ctermfg=NONE gui=bold cterm=bold
   hi TelescopePromptPrefix guifg=#aaccee ctermfg=4 gui=NONE cterm=NONE
   hi TelescopeSelection guibg=#262626 ctermbg=NONE gui=NONE cterm=NONE
   hi TelescopeSelectionCaret guifg=#aaccee ctermfg=4 guibg=#262626 ctermbg=NONE gui=NONE cterm=NONE
   hi TelescopeMatching guifg=#aaccee ctermfg=4 gui=bold cterm=bold
-  hi NotifyBackground guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
+  hi NotifyBackground guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
   hi NotifyERRORBorder guifg=#ebafbd ctermfg=1 gui=NONE cterm=NONE
   hi NotifyERRORIcon guifg=#ebafbd ctermfg=1 gui=NONE cterm=NONE
   hi NotifyERRORTitle guifg=#ebafbd ctermfg=1 gui=NONE cterm=NONE
@@ -195,7 +195,7 @@ if has('nvim')
   hi IblWhitespace guifg=#2e2e2e ctermfg=NONE gui=NONE cterm=NONE
   hi IblScope guifg=#4a4a4a ctermfg=0 gui=NONE cterm=NONE
   hi! link BlinkCmpMenu Pmenu
-  hi BlinkCmpMenuBorder guifg=#3a3a3a ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
+  hi BlinkCmpMenuBorder guifg=#3a3a3a ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
   hi! link BlinkCmpMenuSelection PmenuSel
   hi BlinkCmpLabelMatch guifg=#aaccee ctermfg=4 gui=bold cterm=bold
   hi BlinkCmpLabelDeprecated guifg=#7a7a7a ctermfg=NONE gui=strikethrough cterm=strikethrough

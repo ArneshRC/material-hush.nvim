@@ -12,8 +12,8 @@ hi FloatTitle guifg=#181818 ctermfg=NONE guibg=#ebebe9 ctermbg=NONE gui=bold cte
 hi Cursor guifg=#f5f5f4 ctermfg=NONE guibg=#181818 ctermbg=NONE gui=NONE cterm=NONE
 hi! link lCursor Cursor
 hi! link CursorIM Cursor
-hi CursorLine guibg=#e4e4e2 ctermbg=NONE gui=NONE cterm=NONE
-hi CursorColumn guibg=#e4e4e2 ctermbg=NONE gui=NONE cterm=NONE
+hi CursorLine guibg=#ebebea ctermbg=NONE gui=NONE cterm=NONE
+hi CursorColumn guibg=#ebebea ctermbg=NONE gui=NONE cterm=NONE
 hi ColorColumn guibg=#f0f0ef ctermbg=NONE gui=NONE cterm=NONE
 hi CursorLineNr guifg=#181818 ctermfg=NONE gui=bold cterm=bold
 hi LineNr guifg=#b3b3b3 ctermfg=0 gui=NONE cterm=NONE
@@ -34,7 +34,7 @@ hi PmenuSel guibg=#ebebea ctermbg=NONE gui=bold cterm=bold
 hi PmenuSbar guibg=#ebebe9 ctermbg=NONE gui=NONE cterm=NONE
 hi PmenuThumb guibg=#ebebea ctermbg=NONE gui=NONE cterm=NONE
 hi! link WildMenu PmenuSel
-hi Visual guibg=#d6d6d3 ctermbg=NONE gui=NONE cterm=NONE
+hi Visual guibg=#dededd ctermbg=NONE gui=NONE cterm=NONE
 hi! link VisualNOS Visual
 hi Search guifg=#f5f5f4 ctermfg=NONE guibg=#826346 ctermbg=3 gui=NONE cterm=NONE
 hi IncSearch guifg=#f5f5f4 ctermfg=NONE guibg=#4e6c8b ctermbg=4 gui=NONE cterm=NONE
@@ -117,9 +117,9 @@ if has('nvim')
   hi DiagnosticVirtualTextWarn guifg=#826346 ctermfg=3 guibg=#ece9e6 ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticVirtualTextInfo guifg=#4e6c8b ctermfg=4 guibg=#e8eaec ctermbg=NONE gui=NONE cterm=NONE
   hi DiagnosticVirtualTextHint guifg=#4b6f76 ctermfg=6 guibg=#e7eaea ctermbg=NONE gui=NONE cterm=NONE
-  hi LspReferenceText guibg=#e4e4e2 ctermbg=NONE gui=NONE cterm=NONE
-  hi LspReferenceRead guibg=#e4e4e2 ctermbg=NONE gui=NONE cterm=NONE
-  hi LspReferenceWrite guibg=#e4e4e2 ctermbg=NONE gui=underline cterm=underline
+  hi LspReferenceText guibg=#ebebea ctermbg=NONE gui=NONE cterm=NONE
+  hi LspReferenceRead guibg=#ebebea ctermbg=NONE gui=NONE cterm=NONE
+  hi LspReferenceWrite guibg=#ebebea ctermbg=NONE gui=underline cterm=underline
   hi LspInlayHint guifg=#7c7c7a ctermfg=NONE gui=italic cterm=italic
   hi LspSignatureActiveParameter guifg=#4e6c8b ctermfg=4 gui=bold cterm=bold
   hi @variable guifg=#181818 ctermfg=NONE gui=NONE cterm=NONE

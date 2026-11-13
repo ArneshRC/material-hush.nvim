@@ -14,25 +14,25 @@ hi! link lCursor Cursor
 hi! link CursorIM Cursor
 hi CursorLine guibg=#2a2a2a ctermbg=NONE gui=NONE cterm=NONE
 hi CursorColumn guibg=#2a2a2a ctermbg=NONE gui=NONE cterm=NONE
-hi ColorColumn guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
+hi ColorColumn guibg=#212121 ctermbg=NONE gui=NONE cterm=NONE
 hi CursorLineNr guifg=#fafafa ctermfg=NONE gui=bold cterm=bold
 hi LineNr guifg=#4a4a4a ctermfg=0 gui=NONE cterm=NONE
 hi SignColumn guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn guifg=#4a4a4a ctermfg=0 gui=NONE cterm=NONE
-hi Folded guifg=#7a7a7a ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
+hi Folded guifg=#7a7a7a ctermfg=NONE guibg=#212121 ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#2e2e2e ctermfg=NONE gui=NONE cterm=NONE
 hi WinSeparator guifg=#2e2e2e ctermfg=NONE gui=NONE cterm=NONE
-hi StatusLine guifg=#fafafa ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
-hi StatusLineNC guifg=#7a7a7a ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
+hi StatusLine guifg=#fafafa ctermfg=NONE guibg=#212121 ctermbg=NONE gui=NONE cterm=NONE
+hi StatusLineNC guifg=#7a7a7a ctermfg=NONE guibg=#212121 ctermbg=NONE gui=NONE cterm=NONE
 hi TabLine guifg=#7a7a7a ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineSel guifg=#fafafa ctermfg=NONE guibg=#2a2a2a ctermbg=NONE gui=bold cterm=bold
 hi TabLineFill guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
 hi WinBar guifg=#fafafa ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=bold cterm=bold
 hi WinBarNC guifg=#7a7a7a ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
 hi Pmenu guifg=#fafafa ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
-hi PmenuSel guibg=#3a3a3a ctermbg=NONE gui=bold cterm=bold
+hi PmenuSel guibg=#262626 ctermbg=NONE gui=bold cterm=bold
 hi PmenuSbar guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
-hi PmenuThumb guibg=#3a3a3a ctermbg=NONE gui=NONE cterm=NONE
+hi PmenuThumb guibg=#262626 ctermbg=NONE gui=NONE cterm=NONE
 hi! link WildMenu PmenuSel
 hi Visual guibg=#3a3a3a ctermbg=NONE gui=NONE cterm=NONE
 hi! link VisualNOS Visual
@@ -40,7 +40,7 @@ hi Search guifg=#1c1c1c ctermfg=NONE guibg=#f5d2b1 ctermbg=3 gui=NONE cterm=NONE
 hi IncSearch guifg=#1c1c1c ctermfg=NONE guibg=#aaccee ctermbg=4 gui=NONE cterm=NONE
 hi! link CurSearch IncSearch
 hi Substitute guifg=#1c1c1c ctermfg=NONE guibg=#ebafbd ctermbg=1 gui=NONE cterm=NONE
-hi MatchParen guifg=#aaccee ctermfg=4 guibg=#3a3a3a ctermbg=NONE gui=bold cterm=bold
+hi MatchParen guifg=#aaccee ctermfg=4 guibg=#262626 ctermbg=NONE gui=bold cterm=bold
 hi NonText guifg=#4a4a4a ctermfg=0 gui=NONE cterm=NONE
 hi Whitespace guifg=#3a3a3a ctermfg=NONE gui=NONE cterm=NONE
 hi SpecialKey guifg=#4a4a4a ctermfg=0 gui=NONE cterm=NONE
@@ -172,8 +172,8 @@ if has('nvim')
   hi TelescopeBorder guifg=#3a3a3a ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
   hi TelescopeTitle guifg=#fafafa ctermfg=NONE gui=bold cterm=bold
   hi TelescopePromptPrefix guifg=#aaccee ctermfg=4 gui=NONE cterm=NONE
-  hi TelescopeSelection guibg=#3a3a3a ctermbg=NONE gui=NONE cterm=NONE
-  hi TelescopeSelectionCaret guifg=#aaccee ctermfg=4 guibg=#3a3a3a ctermbg=NONE gui=NONE cterm=NONE
+  hi TelescopeSelection guibg=#262626 ctermbg=NONE gui=NONE cterm=NONE
+  hi TelescopeSelectionCaret guifg=#aaccee ctermfg=4 guibg=#262626 ctermbg=NONE gui=NONE cterm=NONE
   hi TelescopeMatching guifg=#aaccee ctermfg=4 gui=bold cterm=bold
   hi NotifyBackground guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
   hi NotifyERRORBorder guifg=#ebafbd ctermfg=1 gui=NONE cterm=NONE
@@ -214,16 +214,16 @@ if has('nvim')
   hi NvimTreeGitNew guifg=#dcdfb5 ctermfg=2 gui=NONE cterm=NONE
   hi NvimTreeGitDeleted guifg=#ebafbd ctermfg=1 gui=NONE cterm=NONE
   hi NvimTreeWindowPicker guifg=#fafafa ctermfg=NONE guibg=#aa7d88 ctermbg=NONE gui=bold cterm=bold
-  hi IlluminatedWordText guibg=#3a3a3a ctermbg=NONE gui=NONE cterm=NONE
-  hi IlluminatedWordRead guibg=#3a3a3a ctermbg=NONE gui=NONE cterm=NONE
-  hi IlluminatedWordWrite guibg=#3a3a3a ctermbg=NONE gui=NONE cterm=NONE
+  hi IlluminatedWordText guibg=#262626 ctermbg=NONE gui=NONE cterm=NONE
+  hi IlluminatedWordRead guibg=#262626 ctermbg=NONE gui=NONE cterm=NONE
+  hi IlluminatedWordWrite guibg=#262626 ctermbg=NONE gui=NONE cterm=NONE
   hi NoiceVirtualText guifg=#f5d2b1 ctermfg=3 gui=NONE cterm=NONE
   hi NoiceCmdlineIcon guifg=#aaccee ctermfg=4 gui=NONE cterm=NONE
   hi! link NoiceCmdlinePopupBorder FloatBorder
   hi! link NoicePopupBorder FloatBorder
   hi DropBarIconUISeparator guifg=#7a7a7a ctermfg=NONE gui=NONE cterm=NONE
-  hi DropBarCurrentContext guibg=#2a2a2a ctermbg=NONE gui=NONE cterm=NONE
-  hi DropBarMenuHoverEntry guibg=#3a3a3a ctermbg=NONE gui=NONE cterm=NONE
+  hi DropBarCurrentContext guibg=#212121 ctermbg=NONE gui=NONE cterm=NONE
+  hi DropBarMenuHoverEntry guibg=#262626 ctermbg=NONE gui=NONE cterm=NONE
   hi! link EdgyNormal Normal
   hi NeoTreeTitleBar guifg=#fafafa ctermfg=NONE guibg=#262626 ctermbg=NONE gui=bold cterm=bold
   let g:terminal_color_0 = '#4a4a4a'

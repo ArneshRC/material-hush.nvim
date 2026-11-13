@@ -225,6 +225,7 @@ if has('nvim')
   hi DropBarCurrentContext guibg=#e4e4e2 ctermbg=NONE gui=NONE cterm=NONE
   hi DropBarMenuHoverEntry guibg=#d6d6d3 ctermbg=NONE gui=NONE cterm=NONE
   hi! link EdgyNormal Normal
+  hi NeoTreeTitleBar guifg=#181818 ctermfg=NONE guibg=#ebebea ctermbg=NONE gui=bold cterm=bold
   let g:terminal_color_0 = '#b3b3b3'
   let g:terminal_color_1 = '#905b68'
   let g:terminal_color_2 = '#6a6c47'

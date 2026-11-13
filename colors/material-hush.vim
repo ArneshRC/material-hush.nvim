@@ -224,6 +224,7 @@ if has('nvim')
   hi DropBarIconUISeparator guifg=#7a7a7a ctermfg=NONE gui=NONE cterm=NONE
   hi DropBarCurrentContext guibg=#2a2a2a ctermbg=NONE gui=NONE cterm=NONE
   hi DropBarMenuHoverEntry guibg=#3a3a3a ctermbg=NONE gui=NONE cterm=NONE
+  hi! link EdgyNormal Normal
   let g:terminal_color_0 = '#4a4a4a'
   let g:terminal_color_1 = '#ebafbd'
   let g:terminal_color_2 = '#dcdfb5'

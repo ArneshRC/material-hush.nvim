@@ -204,9 +204,9 @@ if has('nvim')
   hi! link BlinkCmpDocBorder FloatBorder
   hi! link BlinkCmpSignatureHelp NormalFloat
   hi! link BlinkCmpSignatureHelpBorder FloatBorder
-  hi NvimTreeNormal guifg=#fafafa ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
+  hi NvimTreeNormal guifg=#fafafa ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
   hi! link NvimTreeNormalNC NvimTreeNormal
-  hi NvimTreeWinSeparator guifg=#2e2e2e ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
+  hi NvimTreeWinSeparator guifg=#2e2e2e ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
   hi NvimTreeRootFolder guifg=#aaccee ctermfg=4 gui=bold cterm=bold
   hi NvimTreeFolderName guifg=#aaccee ctermfg=4 gui=NONE cterm=NONE
   hi NvimTreeFolderIcon guifg=#aaccee ctermfg=4 gui=NONE cterm=NONE

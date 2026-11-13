@@ -27,8 +27,8 @@ hi StatusLineNC guifg=#7a7a7a ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE c
 hi TabLine guifg=#7a7a7a ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineSel guifg=#fafafa ctermfg=NONE guibg=#2a2a2a ctermbg=NONE gui=bold cterm=bold
 hi TabLineFill guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
-hi WinBar guifg=#fafafa ctermfg=NONE gui=bold cterm=bold
-hi WinBarNC guifg=#7a7a7a ctermfg=NONE gui=NONE cterm=NONE
+hi WinBar guifg=#fafafa ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=bold cterm=bold
+hi WinBarNC guifg=#7a7a7a ctermfg=NONE guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
 hi Pmenu guifg=#fafafa ctermfg=NONE guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE
 hi PmenuSel guibg=#3a3a3a ctermbg=NONE gui=bold cterm=bold
 hi PmenuSbar guibg=#232323 ctermbg=NONE gui=NONE cterm=NONE

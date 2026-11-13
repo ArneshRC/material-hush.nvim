@@ -219,7 +219,30 @@ if has('nvim')
   hi IlluminatedWordWrite guibg=#262626 ctermbg=NONE gui=NONE cterm=NONE
   hi NoiceVirtualText guifg=#f5d2b1 ctermfg=3 gui=NONE cterm=NONE
   hi NoiceCmdlineIcon guifg=#aaccee ctermfg=4 gui=NONE cterm=NONE
-  hi! link NoiceCmdlinePopupBorder FloatBorder
+  hi NoiceCmdlinePopup guifg=#dddddd ctermfg=7 guibg=#1c1c1c ctermbg=NONE gui=NONE cterm=NONE
+  hi NoiceCmdlinePopupBorder guifg=#dddddd ctermfg=7 gui=NONE cterm=NONE
+  hi NoiceCmdlinePopupTitle guifg=#dddddd ctermfg=7 gui=NONE cterm=NONE
+  hi NoiceCmdlineIconCmdline guifg=#dddddd ctermfg=7 gui=NONE cterm=NONE
+  hi NoiceCmdlinePopupBorderCmdline guifg=#dddddd ctermfg=7 gui=NONE cterm=NONE
+  hi NoiceCmdlinePopupTitleCmdline guifg=#dddddd ctermfg=7 gui=NONE cterm=NONE
+  hi NoiceCmdlineIconSearch guifg=#f5d2b1 ctermfg=3 gui=NONE cterm=NONE
+  hi NoiceCmdlinePopupBorderSearch guifg=#f5d2b1 ctermfg=3 gui=NONE cterm=NONE
+  hi NoiceCmdlinePopupTitleSearch guifg=#f5d2b1 ctermfg=3 gui=NONE cterm=NONE
+  hi NoiceCmdlineIconFilter guifg=#dcdfb5 ctermfg=2 gui=NONE cterm=NONE
+  hi NoiceCmdlinePopupBorderFilter guifg=#dcdfb5 ctermfg=2 gui=NONE cterm=NONE
+  hi NoiceCmdlinePopupTitleFilter guifg=#dcdfb5 ctermfg=2 gui=NONE cterm=NONE
+  hi NoiceCmdlineIconLua guifg=#aaccee ctermfg=4 gui=NONE cterm=NONE
+  hi NoiceCmdlinePopupBorderLua guifg=#aaccee ctermfg=4 gui=NONE cterm=NONE
+  hi NoiceCmdlinePopupTitleLua guifg=#aaccee ctermfg=4 gui=NONE cterm=NONE
+  hi NoiceCmdlineIconHelp guifg=#b8e0e7 ctermfg=6 gui=NONE cterm=NONE
+  hi NoiceCmdlinePopupBorderHelp guifg=#b8e0e7 ctermfg=6 gui=NONE cterm=NONE
+  hi NoiceCmdlinePopupTitleHelp guifg=#b8e0e7 ctermfg=6 gui=NONE cterm=NONE
+  hi NoiceCmdlineIconCalculator guifg=#cac0ec ctermfg=5 gui=NONE cterm=NONE
+  hi NoiceCmdlinePopupBorderCalculator guifg=#cac0ec ctermfg=5 gui=NONE cterm=NONE
+  hi NoiceCmdlinePopupTitleCalculator guifg=#cac0ec ctermfg=5 gui=NONE cterm=NONE
+  hi NoiceCmdlineIconInput guifg=#dddddd ctermfg=7 gui=NONE cterm=NONE
+  hi NoiceCmdlinePopupBorderInput guifg=#dddddd ctermfg=7 gui=NONE cterm=NONE
+  hi NoiceCmdlinePopupTitleInput guifg=#dddddd ctermfg=7 gui=NONE cterm=NONE
   hi! link NoicePopupBorder FloatBorder
   hi DropBarIconUISeparator guifg=#7a7a7a ctermfg=NONE gui=NONE cterm=NONE
   hi DropBarCurrentContext guibg=#212121 ctermbg=NONE gui=NONE cterm=NONE

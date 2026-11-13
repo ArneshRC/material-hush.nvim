@@ -9,8 +9,8 @@ local M = {}
 M.dark = {
     -- base16
     base00 = '#1c1c1c', -- background
-    base01 = '#232323', -- surface
-    base02 = '#3a3a3a', -- selection
+    base01 = '#212121', -- surface
+    base02 = '#333333', -- selection
     base03 = '#7a7a7a', -- muted, comments
     base04 = '#dddddd',
     base05 = '#fafafa', -- foreground
@@ -27,16 +27,16 @@ M.dark = {
 
     -- UI shades used by the colorscheme
     ui = {
-        surface = '#232323', -- panels, popups, sidebars
-        overlay = '#2a2a2a', -- cursor line, hover
+        surface = '#212121', -- panels, popups, sidebars
+        overlay = '#262626', -- cursor line, hover
         border = '#2e2e2e', -- separators
-        selection = '#3a3a3a', -- selected text
+        selection = '#333333', -- selected text
         muted = '#7a7a7a', -- comments, secondary text
     },
 
     -- nvim-tree.lua
     nvim_tree = {
-        bg = '#232323',
+        bg = '#1c1c1c',
         picker_bg = '#aa7d88',
     },
 
@@ -46,7 +46,7 @@ M.dark = {
         fg_primary = '#fafafa',
         fg_secondary = '#7a7a7a',
         accent = '#7b94ae',
-        tab_separator = '#3a3a3a',
+        tab_separator = '#262626',
         close = '#aa7d88',
     },
 }
@@ -54,8 +54,8 @@ M.dark = {
 M.light = {
     -- base16
     base00 = '#f5f5f4', -- background
-    base01 = '#ebebe9', -- surface
-    base02 = '#d6d6d3', -- selection
+    base01 = '#f0f0ef', -- surface
+    base02 = '#dededd', -- selection
     base03 = '#7c7c7a', -- muted, comments
     base04 = '#2e2e2e',
     base05 = '#181818', -- foreground
@@ -71,15 +71,15 @@ M.light = {
     base0F = '#99556b', -- rose
 
     ui = {
-        surface = '#ebebe9',
-        overlay = '#e4e4e2',
+        surface = '#f0f0ef',
+        overlay = '#ebebea',
         border = '#dededc',
-        selection = '#d6d6d3',
+        selection = '#dededd',
         muted = '#7c7c7a',
     },
 
     nvim_tree = {
-        bg = '#ebebe9',
+        bg = '#f5f5f4',
         picker_bg = '#d2bfc3',
     },
 
@@ -88,7 +88,7 @@ M.light = {
         fg_primary = '#181818',
         fg_secondary = '#7c7c7a',
         accent = '#4e6c8b',
-        tab_separator = '#d6d6d3',
+        tab_separator = '#ebebea',
         close = '#905b68',
     },
 }

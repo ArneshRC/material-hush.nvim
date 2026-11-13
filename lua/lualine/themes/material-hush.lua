@@ -5,7 +5,7 @@ local p = require('material-hush.palette')[vim.o.background == 'light' and 'ligh
 local function mode(color)
     return {
         a = { fg = p.base00, bg = color, gui = 'bold' },
-        b = { fg = p.base05, bg = p.ui.selection },
+        b = { fg = p.base05, bg = p.ui.overlay },
         c = { fg = p.base04, bg = p.ui.surface },
     }
 end
